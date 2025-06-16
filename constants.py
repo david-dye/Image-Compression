@@ -1,11 +1,12 @@
 import torch
 
-# Define paths to project dependencies
-project_path = "C:\\Users\\dwdjr\\Documents\\ENGSCI 250 Project\\"
-code_path = project_path + "code\\"
-coco_folder_path = project_path + "coco_dataset" #may be wildly different for you
-figure_path = project_path + "figures\\"
-save_path = project_path + "saved_data\\"
+# Define paths to project dependencies 
+# User-defined
+project_path = ""
+code_path = ""
+coco_folder_path = ""
+figure_path = ""
+save_path = ""
 
 # Get working device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
